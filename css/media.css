@@ -1,0 +1,115 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    .menu ul li a{
+        margin-top: 20px;
+        padding: 0 0px !important;
+        text-align: center !important;
+        font-size: 18px;
+        }
+
+  header{
+      padding: 8px 0 ;
+  }
+
+  .features {
+    padding: 50px 0px 70px 0px;
+}
+.fitem {
+    margin-top: 40px;
+    text-align: center;
+}
+.fh1 {
+    font-size: 28px;
+    
+}
+.fpra {
+    font-size: 19px;
+   
+}
+}
+    
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+    .slider{  
+     padding: 0px 0 50px 0 !important;
+    }
+    .carousel-indicators {
+        bottom: -45px;
+    }
+    .features {
+        padding: 50px 0px 70px 0px;
+    }
+    .fitem {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .fh1 {
+        font-size: 28px;
+        
+    }
+    .fpra {
+        font-size: 19px;
+       
+    }
+    .menu ul li a{
+        margin-top: 20px;
+        padding: 0 0px !important;
+        text-align: center !important;
+        
+    }
+    header{
+        padding: 8px 0 ;
+    }
+    .slider {
+        background-color: #fcdb00;
+        padding: 50px 0 !important;
+    }
+    
+    .cid [data-bs-target] {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+}
+.c_text {
+    margin-top: 40px;
+}
+    }
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    /*feature start*/
+
+    .features {
+        padding: 80px 0px 100px 0px;
+    }
+    .fitem {
+        margin-top: 35px;
+    }
+
+    .menu ul li a{
+        margin-top: 20px;
+        padding: 0 0px !important;
+        text-align: center !important;
+        
+    }
+    .c_text {
+        margin-top: 50px;
+
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}

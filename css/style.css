@@ -1,0 +1,200 @@
+/*COMMON START*/
+body{
+font-family: 'PT Sans' ;
+font-size: 16px;
+font-weight: 400px;
+color:#010101;
+}
+
+
+@font-face {
+    font-family:PTSans-Bold;
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+@font-face {
+    font-family:PTSans-Regular;
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+/*COMMON END*/
+
+header{
+    background-color:#fcdb00 ;
+    padding: 20px 0;
+}
+
+.c_nav{}
+
+.logo{}
+
+ .menu{}
+
+ .menu ul li a{
+    font-size: 22px;
+    font-weight: 700px;
+    color: #010101 !important;
+    padding: 0 45px !important;
+ }
+
+ .menu ul li:last-child a{
+    padding-right: 0 !important;
+ }
+
+ .menu ul li a:hover{
+     color: rgb(255, 255, 255) !important;
+ }
+
+ /*slider start*/
+.slider{
+    background-color: #fcdb00 ;
+    padding-bottom: 100px;  
+}
+
+/*c indicator*/
+.cid [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+        bottom: -80px;
+
+    }
+    .carousel-indicators .active {
+        opacity: 1;
+        background-color:green;
+    }
+.c_text{
+    margin-top: 70px;
+
+}
+.c_text h1{
+    bottom:-80px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.c_text h2{
+    margin-bottom: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #313841;
+}
+.c_text p{
+    margin-bottom: 35px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.icon{}
+.icon li{
+    margin-right: 25px !important;
+}
+.icon li i{
+    font-size: 42px;
+    transition-duration: .60s;
+    
+}
+.icon li i:hover{
+    transform: scale(.75);
+    
+    
+    
+}
+
+  /*slider end*/
+
+
+  /*feature start*/
+  .features{
+ padding: 100px 0px 120px 0px;
+
+  }
+  .fitem{
+    margin-top: 65px;
+}
+
+  .fh1{
+    font-size: 32px;
+    font-weight: 700px;
+
+  }
+
+  .fpra{
+    font-size: 20px;
+    color: #313841;
+  }
+
+  .ficon{
+     margin-top: 5px; 
+}
+.ficon i{
+   font-size: 50px; 
+  transition-duration: .60s;  
+}
+.ficon i:hover{
+    transform: scale(.75);   
+}
+
+.ftext{
+
+}
+.feh{
+    font-size: 22px;
+    font-weight: 400px;
+}
+.fep{
+font-size: 16px;
+font-weight: 400px;
+color: #898989;
+word-spacing: 1px;
+letter-spacing: 1px;
+}
+
+
+  /*feature end*/
+
+  
+/*contact start*/
+.tcontact{
+    background-color: black;
+    padding:100px 0 120px 0;
+}
+
+.ctheading{
+
+}
+.fh2{
+color:#fcdb00;
+}
+.fpra2{
+color:#898989;
+margin-bottom: 40px;
+}
+
+.btn{
+    background-color:#fcdb00;
+    border:1 px solid #fcdb00 !important;
+    color:black;
+}
+.btn:hover{
+    background-color: white;
+  color:black;
+}
+.iconb{
+    color:#fcdb00;
+    padding-top: 45px;
+}
+.footeritem{
+   background-color: black;
+   padding: 60px 0 60px 0;
+}
+.ulitem{
+    list-style: none;
+    color: #ffffff;
+}
+.listitem{
+    
+}
+/*contact start*/
